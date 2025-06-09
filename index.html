@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="icon" href="/jirafa.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Happy Birthday Victor</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@3/tsparticles.bundle.min.js"></script>
+    <canvas id="tsparticles"></canvas>
+    <script>
+      fetch("confetti.json")
+        .then((res) => res.json())
+        .then((confettiOptions) => {
+          tsParticles.load("tsparticles", confettiOptions);
+        });
+    </script>
+  </body>
+</html>
