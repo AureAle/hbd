@@ -59,7 +59,7 @@ function App() {
           fontFamily: '"Futura"',
         }}
       >
-        <h1 style={{ color: darkMode ? "#fff" : "#DA6C6C", fontSize: "2rem" }}>
+        <h1 style={{ margin: "0px", color: darkMode ? "#fff" : "#DA6C6C", fontSize: "3rem" }}>
           Feliz cumpleaños Víctor!!
         </h1>
       </div>
@@ -68,7 +68,7 @@ function App() {
           width: "100%",
           maxWidth: "1000px",
           margin: "0px",
-          padding: "2rem",
+          padding: "1rem",
         }}
       >
         <div
