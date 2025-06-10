@@ -100,7 +100,7 @@ function App() {
             playsInline
             //controls
           >
-            <source src="/HBD_Victor_Enhanced.mp4" type="video/mp4" />
+            <source src="/hbd/HBD_Victor_Enhanced.mp4" type="video/mp4" />
           </video>
           {/* Dark Mode Video */}
           <video
@@ -123,7 +123,7 @@ function App() {
             playsInline
             //controls
           >
-            <source src="/HBD_Victor_dark.mp4" type="video/mp4" />
+            <source src="/hbd/HBD_Victor_dark.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
